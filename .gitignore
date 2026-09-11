@@ -1,0 +1,27 @@
+# Qt Creator IDE settings & user-specific project files
+.qtcreator/
+*.pro.user*
+
+# Clangd code model cache
+.qtc_clangd/
+
+# Build artifacts & shadow build directories
+build/
+build-*/
+
+# C/C++ compiled binaries & object files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Generated Makefile and QMake stubs
+Makefile*
+*.qmake.stash
+
+# Qt UI compiler output header (generated dynamically from .ui files)
+ui_*.h
